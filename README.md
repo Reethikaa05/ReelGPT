@@ -1,4 +1,4 @@
-# 🚀🎬 ShortGPT 
+# 🚀🎬 ReelGPT 
 ## AI video automation framework
 
 <div align="center" style="border-radius: 20px;" width="18%">
@@ -24,8 +24,8 @@ https://github.com/RayVentura/ShortGPT/assets/121462835/06f51b2d-f8b1-4a23-b299-
 
 ## 🛠️ How it works
 ![alt text](https://github.com/RayVentura/ShortGPT/assets/121462835/fcee74d4-f856-4481-949f-244558bf3bfa)
-## 📝 Introduction to ShortGPT 
-ShortGPT is a powerful framework for automating content creation. It simplifies video creation, footage sourcing, voiceover synthesis, and editing tasks. Of the most popular use-cases of ShortGPT is youtube automation and Tiktok creativity program automation.
+## 📝 Introduction to ReelGPT 
+ReelGPT  is a powerful framework for automating content creation. It simplifies video creation, footage sourcing, voiceover synthesis, and editing tasks. Of the most popular use-cases of ShortGPT is youtube automation and Tiktok creativity program automation.
 
 - 🎞️ **Automated editing framework**: Streamlines the video creation process with an LLM oriented video editing language.
 
@@ -39,21 +39,21 @@ ShortGPT is a powerful framework for automating content creation. It simplifies 
 
 - 🧠 **Memory and persistency**: Ensures long-term persistency of automated editing variables with TinyDB.
 
-## 🚀 Quick Start: Run ShortGPT on Google Colab (https://colab.research.google.com/drive/1_2UKdpF6lqxCqWaAcZb3rwMVQqtbisdE?usp=sharing)
+## 🚀 Quick Start: Run ReelGPT on Google Colab (https://colab.research.google.com/drive/1_2UKdpF6lqxCqWaAcZb3rwMVQqtbisdE?usp=sharing)
 
 If you prefer not to install the prerequisites on your local system, you can use the Google Colab notebook. This option is free and requires no installation setup.
 
 1. Click on the link to the Google Colab notebook: [https://colab.research.google.com/drive/1_2UKdpF6lqxCqWaAcZb3rwMVQqtbisdE?usp=sharing](https://colab.research.google.com/drive/1_2UKdpF6lqxCqWaAcZb3rwMVQqtbisdE?usp=sharing)
 
-2. Once you're in the notebook, simply run the cells in order from top to bottom. You can do this by clicking on each cell and pressing the 'Play' button, or by using the keyboard . Enjoy using ShortGPT!
+2. Once you're in the notebook, simply run the cells in order from top to bottom. You can do this by clicking on each cell and pressing the 'Play' button, or by using the keyboard . Enjoy using !
 
-# Instructions for running shortGPT locally
+# Instructions for running ReelGPT locally
 This guide provides step-by-step instructions for installing shortGPT and its dependencies.
 To run ShortGPT locally, you need Docker.
 
 ## Installation Steps
 
-To run ShortGPT, you need to have docker. Follow the instructions "installation-notes.md" for more details.
+To run ReelGPT , you need to have docker. Follow the instructions "installation-notes.md" for more details.
 
 1. For running the Dockerfile, do this:
 ```bash
@@ -75,16 +75,16 @@ docker run -p 31415:31415 --env-file .env short_gpt_docker:latest
 
 - 🎞️ The automated `EditingEngine`, using Editing Markup Language and JSON, breaks down the editing process into manageable and customizable blocks, comprehensible to Large Language Models.
 
-💡 ShortGPT offers customization options to suit your needs, from language selection to watermark addition.
+💡 ReelGPT offers customization options to suit your needs, from language selection to watermark addition.
 
-🔧 As a framework, ShortGPT is adaptable and flexible, offering the potential for efficient, creative content creation.
+🔧 As a framework, ReelGPT is adaptable and flexible, offering the potential for efficient, creative content creation.
 
 More documentation incomming, please be patient.
 
 
 ## Technologies Used
 
-ShortGPT utilizes the following technologies to power its functionality:
+ReelGPT utilizes the following technologies to power its functionality:
 
 - **Moviepy**: Moviepy is used for video editing, allowing ShortGPT to make video editing and rendering
 
